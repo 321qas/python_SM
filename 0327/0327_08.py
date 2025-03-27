@@ -22,7 +22,7 @@
 # print("시도횟수는 ",len(d),"번", "입력한 숫자는",d,"입니다")
 
 
-
+# 복권당첨 시스템
 import random
 num = []
 input_num_list = []
@@ -37,6 +37,15 @@ for B in range(0,6):
     input_num_list.append(int(input("번째 1부터 100 사이의 숫자를 입력하세요: ")))
     n += 1
 
+# aa = [1,2,3,4,5,6]
+# bb = [3,5,7,8,9,10]
+# count = 0
+# for i in range(6):
+#     for j in range(6):
+#         if aa[i] == bb[j]:
+#             count += 1
+#             break
+            
 if input_num_list[0] == num[0] and input_num_list[1] == num[1] and input_num_list[2] == num[2] and input_num_list[3] == num[3] and input_num_list[4] == num[4] and input_num_list[5] == num[5]:
     print("100억 당첨")
 else:
